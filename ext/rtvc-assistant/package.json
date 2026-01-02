@@ -1,0 +1,70 @@
+{
+  "name": "rtvc-assistant",
+  "displayName": "RTVC Assistant",
+  "description": "Real-time code checking and AI assistance for Python and JavaScript",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+"categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onView:rtvcAssistant.view"
+    ],
+    "main": "./dist/extension.js",
+    "contributes": {
+        "viewsContainers": {
+            "activitybar": [
+                {
+                    "id": "rtvcAssistant",
+                    "title": "RTVC Assistant",
+                    "icon": "media/icon.svg"
+                }
+            ]
+        },
+        "views": {
+            "rtvcAssistant": [
+                {
+                    "id": "rtvcAssistant.view",
+                    "name": "Assistant",
+                    "type": "webview"
+                }
+            ]
+        },
+        "commands": [
+            {
+                "command": "rtvcAssistant.checkCode",
+                "title": "RTVC Assistant: Check Code"
+            },
+            {
+                "command": "rtvcAssistant.requestFix",
+                "title": "RTVC Assistant: Request Fix"
+            },
+            {
+                "command": "rtvcAssistant.runAutopilot",
+                "title": "RTVC Assistant: Run Autopilot"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "webpack",
+        "watch": "webpack --watch",
+        "lint": "eslint src --ext ts"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.10",
+        "@types/vscode": "^1.85.0",
+        "@typescript-eslint/eslint-plugin": "^7.15.0",
+        "@typescript-eslint/parser": "^7.15.0",
+        "eslint": "^8.57.0",
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.5.3",
+        "webpack": "^5.93.0",
+        "webpack-cli": "^5.1.4"
+    },
+    "dependencies": {
+        "socket.io-client": "^4.7.5"
+    }
+}

@@ -1,0 +1,84 @@
+{
+  "docs": [
+    {
+      "title": "Python Documentation",
+      "description": "Official Python documentation covering syntax, standard library, and tutorials for Python 3.",
+      "url": "https://docs.python.org/3/"
+    },
+    {
+      "title": "JavaScript Documentation (MDN)",
+      "description": "MDN Web Docs for JavaScript, including syntax, APIs, and guides for web development.",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+      "title": "Java Documentation",
+      "description": "Official Java SE documentation, including API references and tutorials for Java programming.",
+      "url": "https://docs.oracle.com/en/java/javase/21/docs/api/index.html"
+    },
+    {
+      "title": "C++ Documentation",
+      "description": "C++ reference from cppreference.com, covering standard library and language features.",
+      "url": "https://en.cppreference.com/w/"
+    },
+    {
+      "title": "PHP Documentation",
+      "description": "Official PHP manual with function references, language features, and guides.",
+      "url": "https://www.php.net/manual/en/"
+    },
+    {
+      "title": "Ruby Documentation",
+      "description": "Official Ruby documentation for core and standard libraries.",
+      "url": "https://ruby-doc.org/"
+    },
+    {
+      "title": "C# Documentation",
+      "description": "Microsoft’s official C# documentation, including .NET APIs and guides.",
+      "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+    },
+    {
+      "title": "TypeScript Documentation",
+      "description": "Official TypeScript documentation for typed JavaScript programming.",
+      "url": "https://www.typescriptlang.org/docs/"
+    },
+    {
+      "title": "React Documentation",
+      "description": "Official React documentation for building user interfaces with JavaScript.",
+      "url": "https://react.dev/"
+    },
+    {
+      "title": "Django Documentation",
+      "description": "Official Django documentation for Python web development framework.",
+      "url": "https://docs.djangoproject.com/en/stable/"
+    },
+    {
+      "title": "Spring Documentation",
+      "description": "Official Spring Framework documentation for Java enterprise applications.",
+      "url": "https://docs.spring.io/spring-framework/reference/"
+    },
+    {
+      "title": "Angular Documentation",
+      "description": "Official Angular documentation for building web apps with TypeScript.",
+      "url": "https://angular.dev/"
+    },
+    {
+      "title": "Ruby on Rails Documentation",
+      "description": "Official Rails guides for web development with Ruby.",
+      "url": "https://guides.rubyonrails.org/"
+    },
+    {
+      "title": "Laravel Documentation",
+      "description": "Official Laravel documentation for PHP web applications.",
+      "url": "https://laravel.com/docs"
+    },
+    {
+      "title": "Flask Documentation",
+      "description": "Official Flask documentation for lightweight Python web framework.",
+      "url": "https://flask.palletsprojects.com/"
+    },
+    {
+      "title": "ASP.NET Core Documentation",
+      "description": "Microsoft’s official ASP.NET Core documentation for web development.",
+      "url": "https://learn.microsoft.com/en-us/aspnet/core/"
+    }
+  ]
+}
